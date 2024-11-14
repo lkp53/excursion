@@ -1,7 +1,19 @@
 html {
 font-family: Helvetica, Arial, sans-serif;
+color: white;
+background-color: black;
 }
 
 h1 {
 color: blue;
+}
+
+.heading {
+text-align: center;
+}
+
+#camp {
+display: inline-flex;
+justify-content: center;
+image-rendering: pixelated;
 }

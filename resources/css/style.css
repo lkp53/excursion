@@ -1,31 +1,35 @@
 html {
-font-family: Helvetica, Arial, sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: white;
 background-color: black;
 text-align: center;
 }
 
 h1 {
-color: blue;
+
+font-weight: normal;
+font-size: 50px;
 }
 
-.heading {
+.title {
 text-align: center;
 }
 
+.headings {
+font-size: 21px;
+
+}
 #camp {
 display: inline-flex;
 justify-content: center;
 image-rendering: pixelated;
 }
 
-.images {
- display:inline-flex;
-}
-#images {
- display: inline-flex;
+.downloadlink {
+ color: aquamarine;
+ font-size: 16px;
 }
 
 h4 {
-text-align: right;
+text-align: right !important;
 }

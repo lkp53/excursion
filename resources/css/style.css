@@ -2,6 +2,7 @@ html {
 font-family: Helvetica, Arial, sans-serif;
 color: white;
 background-color: black;
+text-align: center;
 }
 
 h1 {
@@ -19,5 +20,12 @@ image-rendering: pixelated;
 }
 
 .images {
+ display:inline-flex;
+}
+#images {
+ display: inline-flex;
+}
 
+h4 {
+text-align: right;
 }
